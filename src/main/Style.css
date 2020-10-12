@@ -1,0 +1,66 @@
+body {
+    background-color: coral;
+    /*https://www.youtube.com/watch?v=ZTHnJVJ-Smk&ab_channel=Mayning*/
+    font-family: "Oswald";
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+}
+
+header>h1 {
+    margin: 0px 30px;
+    font-size: 3em;
+}
+
+section>h2{
+    margin: 0px ;
+
+}
+
+article{
+    display:flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.4);
+    padding: 20px;
+    margin: 15px 5px;
+}
+
+section{
+    padding-right: 10px;
+}
+
+.blog-thumbnail{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.button{
+    border-radius: 30px;
+    background-color: rgb(253,72,72);
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+
+}
+
+main{
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    padding: 10px;
+}
+
+footer>img {
+    border-radius: 40px;
+    margin-right: 10px;
+}
